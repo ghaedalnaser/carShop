@@ -1,0 +1,990 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: 1770px;
+    margin: 0;
+}
+
+.page{
+   
+    position: absolute;
+    width: 84%;
+    height: 100%;
+    left: 16%;
+    top: 0px;
+    
+    background: #F5F5F5;
+    
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.page header p{
+    position: absolute;
+    width: 89px;
+    height: 27px;
+    left: 15px;
+    top: 10px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
+
+header hr{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    bottom : 0px;
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.page p{
+    position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 15px;
+    top: 85px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.myImg{
+        
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 600px;
+    top: 215px;
+
+    border-radius: 59px;
+    border: #000000 solid 1px;
+}
+
+
+/*           CAR PHOTO START                  */
+
+
+    .carPH{
+        position: absolute;
+        width: 430px;
+        height: 113px;
+        left: 470px;
+        top: 327px;
+    }
+
+    .carPH label{
+
+        position: absolute;
+        width: 128px;
+        height: 21px;
+        left: 0px;
+        top: 32px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        /* identical to box height */
+        
+        color: #000000;
+    }
+
+    .carPH input{
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 375px;
+        height: 44px;
+        left: 0px;
+        top: 56px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+/*           CAR PHOTO END                  */
+
+
+
+/*           CAR MODEL START                */
+
+
+    .makeORmodel{
+
+        position: absolute;
+        width: 392px;
+        height: 88px;
+        left: 470px;
+        top: 440px;
+    }
+
+    .makeORmodel label{
+        position: absolute;
+        width: 97px;
+        height: 21px;
+        left: 5px;
+        top: 14px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        /* identical to box height */
+        
+        color: #000000;
+    }
+
+    .makeORmodel input{
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 373px;
+        height: 44px;
+        left: 5px;
+        top: 40px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+
+        text-align: center;
+    }
+
+/*           CAR MODEL END                */
+
+
+
+
+/*           CAR YEAR MADE RANGE START            */
+
+
+    .yearRange{
+        position: absolute;
+        width: 392px;
+        height: 96px;
+        left: 470px;
+        top: 536px;
+    }
+
+    .yearRange label{
+        position: absolute;
+        width: 40px;
+        height: 21px;
+        left: 5px;
+        top: 16px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        /* identical to box height */
+        
+        color: #000000;
+        
+        
+    }
+
+    .yearRange input:nth-of-type(1){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 176px;
+        height: 44px;
+        left: 5px;
+        top: 39px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .yearRange input:nth-of-type(2){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 176px;
+        height: 44px;
+        left: 202px;
+        top: 39px;
+
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+
+/*           CAR YEAR MADE RANGE END              */
+
+
+/*           BODY TYPE SEECTION START             */
+
+
+    .bodyTY{
+        position: absolute;
+        width: 390px;
+        height: 370px;
+        left: 470px;
+        top: 627px;
+        
+    }
+
+    .bodyTY label{
+        position: absolute;
+        width: 81px;
+        height: 21px;
+        left: 5px;
+        top: 15px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+    }
+
+    .l1{
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        background: #ffffff;
+        border: 2px solid #497ecd;
+        box-sizing: border-box;
+        border-radius: 10px;
+        
+        height: 60px;
+        width: 150px;
+
+        margin: 2px;
+        cursor: pointer;
+    }
+
+
+    .b1{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .b2{
+        position: absolute;
+        top: 50px;
+        left: 200px;
+        background: #ffffff;
+        border: 2px solid #497ecd;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 150px;
+        height: 60px;
+        margin: 2px;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .b3{
+        position: absolute;
+        top: 150px;
+        left: 30px;
+        background: #ffffff;
+        border: 2px solid #497ecd;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 150px;
+        height: 60px;
+        margin: 2px;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    
+    .b4{
+        position: absolute;
+        top: 150px;
+        left: 200px;
+        background: #ffffff;
+        border: 2px solid #497ecd;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 150px;
+        height: 60px;
+        margin: 2px;
+        cursor: pointer;
+    }
+
+    .b5{
+        position: absolute;
+        top: 250px ;
+        left: 30px;
+        background: #ffffff;
+        border: 2px solid #497ecd;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width : 150px;
+        height: 60px;
+        margin: 2px;
+        text-align: right;
+        cursor: pointer;
+    }
+
+    .b6{
+        position: absolute;
+        top : 250px;
+        left: 200px;
+        background: #ffffff;
+        border: 2px solid #497ecd;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 150px;
+        height: 60px;
+        margin: 2px;
+        cursor: pointer;
+
+    }
+
+
+/*           BODY TYPE SEECTION END          */
+
+
+
+
+/*         PRICE SECTION START               */
+
+
+    .thePrice{
+        position: absolute;
+        width: 390px;
+        height: 96px;
+        left: 470px;
+        top: 980px;
+
+    }
+
+    .thePrice label{
+        position: absolute;
+        width: 43px;
+        height: 21px;
+        left: 5px;
+        top: 18px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+    }
+
+    .thePrice input:nth-of-type(1){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 176px;
+        height: 44px;
+        left: 3px;
+        top: 39px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+
+        text-align: center;
+    }
+
+    .thePrice input:nth-of-type(2){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 176px;
+        height: 44px;
+        left: 200px;
+        top: 39px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+
+        text-align: center;
+    }
+
+
+/*         PRICE SECTION END             */
+
+
+
+/*         GEAR SECTION START            */
+
+
+    .gear{
+        position: absolute;
+        width: 390px;
+        height: 96px;
+        left: 470px;
+        top: 1080px;
+    }
+
+    .gear label{
+        position: absolute;
+        width: 71px;
+        height: 21px;
+        left: 5px;
+        top: 18px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+    }
+
+    .gear div{
+        position: absolute;
+    } 
+
+    .gear ul{
+        position: absolute;
+    }
+
+
+/*         GEAR SECTION END            */
+
+
+
+
+/*         NUMBER OF DOORS START           */
+
+    .numOfDoors{
+        position: absolute;
+        width: 390px;
+        height: 96px;
+        left: 470px;
+        top: 1180px;
+    }
+
+    .numOfDoors label{
+        position: absolute;
+        width: 49px;
+        height: 21px;
+        left: 5px;
+        top: 18px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+    }
+
+    .numOfDoors button:nth-of-type(1){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: 3px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .numOfDoors h4:nth-of-type(1){
+        
+        position: absolute;
+        top: 52px;
+        left: 25px;
+        z-index: 1;
+        margin: 0px;
+
+    }
+
+    .numOfDoors input:nth-of-type(1){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: 3px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .numOfDoors h4:nth-of-type(2){
+        
+        position: absolute;
+        top: 52px;
+        left: 90px;
+        z-index: 1;
+        margin: 0px;
+        
+    }
+
+    .numOfDoors input:nth-of-type(2){
+        
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: 68px;
+        top: 41px;
+
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .numOfDoors h4:nth-of-type(3){
+        
+        position: absolute;
+        top: 52px;
+        left: 155px;
+        z-index: 1;
+        margin: 0px;
+        
+    }
+
+    .numOfDoors input:nth-of-type(3){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: 133px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .numOfDoors h4:nth-of-type(4){
+        
+        position: absolute;
+        top: 52px;
+        left: 218px;
+        z-index: 1;
+        margin: 0px;
+        
+    }
+
+    .numOfDoors input:nth-of-type(4){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        left: 197px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+
+/*         NUMBER OF DOORS END           */
+
+
+
+/*         FAVORATE CAR COLOR START           */
+
+
+    .favColor{
+        position: absolute;
+        width: 490px;
+        height: 400px;
+        left: 470px;
+        top: 1300px;
+    }
+
+    .favColor label{
+
+        position: absolute;
+        width: 53px;
+        height: 21px;
+        left: 5px;
+        top: 18px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+    }
+
+    .favColor input:nth-of-type(1){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 3px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(1){
+        position: absolute;
+        top: 55px;
+        left: 35px;
+        z-index: 1;
+        background-color: #000000;
+        color: beige; 
+    }
+
+    .favColor input:nth-of-type(2){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 93px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(2){
+        position: absolute;
+        top: 55px;
+        left: 120px;
+        z-index: 1;
+        color: yellow;
+    }
+
+    .favColor input:nth-of-type(3){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 183px;
+        top: 41px;
+
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(3){
+        position: absolute;
+        top: 55px;
+        left: 220px;
+        z-index: 1;
+        color: red;
+    }
+
+    .favColor input:nth-of-type(4){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 273px;
+        top: 41px;
+
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(4){
+        position: absolute;
+        top: 55px;
+        left: 305px;
+        z-index: 1;
+        color: blue;
+    }
+
+    .favColor input:nth-of-type(5){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 363px;
+        top: 41px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(5){
+        position: absolute;
+        top: 55px;
+        left: 390px;
+        z-index: 1;
+        color: green;
+    }
+
+    .favColor input:nth-of-type(6){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 3px;
+        top: 132px;
+
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(6){
+        position: absolute;
+        top: 145px;
+        left: 40px;
+        z-index: 1;
+        color: pink;
+    }
+
+    .favColor input:nth-of-type(7){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 93px;
+        top: 132px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(7){
+        position: absolute;
+        top: 145px;
+        left: 120px;
+        z-index: 1;
+    }
+
+    .favColor input:nth-of-type(8){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 183px;
+        top: 132px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(8){
+        position: absolute;
+        top: 145px;
+        left: 210px;
+        z-index: 1;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    .favColor input:nth-of-type(9){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 273px;
+        top: 132px;
+
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(9){
+        position: absolute;
+        top: 145px;
+        left: 300px;
+        z-index: 1;
+        color: silver;
+    }
+
+    .favColor input:nth-of-type(10){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 363px;
+        top: 132px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(10){
+        position: absolute;
+        top: 145px;
+        left: 390px;
+        z-index: 1;
+        color: gray;
+    }
+
+    .favColor input:nth-of-type(11){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 3px;
+        top: 230px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(11){
+        position: absolute;
+        top: 243px;
+        left: 29px;
+        z-index: 1;
+        color: orange;
+    }
+
+    .favColor input:nth-of-type(12){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 93px;
+        top: 230px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(12){
+        position: absolute;
+        top: 243px;
+        left: 120px;
+        z-index: 1;
+        color: purple;
+    }
+
+    .favColor input:nth-of-type(13){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 183px;
+        top: 230px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+    }
+
+    .favColor h4:nth-of-type(13){
+        position: absolute;
+        top: 243px;
+        left: 210px;
+        z-index: 1;
+        color: brown;
+    }
+
+    .favColor input:nth-of-type(14){
+
+        box-sizing: border-box;
+
+        position: absolute;
+        left: 7px;
+        top: 350px;
+        width: 200px;
+        height: 44px;
+        
+        background: #FFFFFF;
+        border: 1px solid #497ECD;
+        border-radius: 10px;
+
+        text-align: center;
+    }
+
+    .form button{
+        position: absolute;
+        bottom: 5px;
+        left: 800px;
+        width: 74px;
+        height: 36px;
+        background-color: #497ECD;
+        color: #FFFFFF;
+        border-radius: 5px;
+    }
+
+
+/*         FAVORATE CAR COLOR END           */

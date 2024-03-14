@@ -1,0 +1,217 @@
+.navigation{
+    position: absolute;
+    width: 16%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #497ECD;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.userName{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.userName h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 11px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: white;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.editProfile{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 82px;
+    cursor: pointer;
+
+}
+
+.editProfile h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 11px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: wheat;
+    text-align: left;
+    cursor: pointer;
+    
+}
+
+.security{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 143px;
+    cursor: pointer;
+
+}
+
+.security h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 11px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: wheat;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.beSeller{
+    
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 204px;
+    cursor: pointer;
+
+}
+
+.beSeller h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 11px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: wheat;
+    text-align: left;
+    cursor: pointer;
+
+
+}
+
+.postCar{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 266px;
+    cursor: pointer;
+
+}
+
+.postCar h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 11px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: wheat;
+    text-align: left;
+    
+    
+}
+
+.favorites{
+
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 328px;
+    cursor: pointer;
+}
+
+.favorites h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 10px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    
+    color: wheat;
+    cursor: pointer;
+}
+
+.logOut{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    bottom: 50px;
+    
+    cursor: pointer;
+
+}
+
+.logOut h3{
+    position: absolute;
+    width: 75%;
+    height: 60px;
+    left: 25%;
+    top: 11px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    
+    color: wheat;
+    text-align: left;
+    cursor: pointer;
+    
+}

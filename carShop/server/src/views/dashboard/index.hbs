@@ -1,0 +1,143 @@
+<div id="dashboard">
+
+  <div class="row">
+
+    {{#if user.isAdmin}}
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-warning card-header-icon">
+
+          <div class="card-icon">
+            <i class="material-icons">garage</i>
+          </div>
+          <p class="card-category">Cars</p>
+          <h3 class="card-title"><span id="">
+
+              {{stat.car}}
+            </span>
+
+            <small> Cars </small>
+          </h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+    {{/if}}
+    {{#if user.hasAgency}}
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-warning card-header-icon">
+
+          <div class="card-icon">
+            <i class="material-icons">garage</i>
+          </div>
+          <p class="card-category">Cars</p>
+          <h3 class="card-title"><span id="">
+
+              {{stat.car}}
+            </span>
+
+            <small> Cars </small>
+          </h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+    {{/if}}
+    {{#if user.isAdmin}}
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-success card-header-icon">
+          <div class="card-icon">
+            <i class="material-icons">store</i>
+          </div>
+          <p class="card-category">Agencies</p>
+          <h3 class="card-title"><span id="agency-count">{{stat.agency}}</span>
+            <small>Agency</small>
+          </h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+    {{#if user.isAdmin}}
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-danger card-header-icon">
+          <div class="card-icon">
+            <i class="material-icons">build</i>
+          </div>
+          <p class="card-category">Parts</p>
+          <h3 class="card-title"><span>{{stat.part}}</span>
+            <small>Parts</small>
+          </h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+
+
+    {{#if user.hasStore}}
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-info card-header-icon">
+          <div class="card-icon">
+            <i class="material-icons">build</i>
+          </div>
+          <p class="card-category">Parts</p>
+          <h3 class="card-title"><span>{{stat.part}}</span>
+            <small>Parts</small>
+          </h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+    {{#if user.isAdmin}}
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-info card-header-icon">
+          <div class="card-icon">
+            <i class="material-icons">store</i>
+          </div>
+          <p class="card-category">stores</p>
+          <h3 class="card-title"><span id="store-count">{{stat.stores}}</span><small>Stores</small></h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+    {{/if}}
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <div class="card card-stats">
+        <div class="card-header card-header-danger card-header-icon">
+          <div class="card-icon">
+            <i class="material-icons">store</i>
+          </div>
+          <p class="card-category">Models</p>
+          <h3 class="card-title"><span id="model-count">{{stat.models}}</span>
+            <small>Models</small>
+          </h3>
+        </div>
+        <div class="card-footer">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

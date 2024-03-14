@@ -1,0 +1,166 @@
+.container {
+    position: absolute;
+    width: 475px;
+    height: 450px;
+    top: 150px;
+    left: 850px;
+  
+    background: #f5f5f5;
+    border: 1.7px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+  
+.loginHeader {
+    position: absolute;
+    width: 74px;
+    height: 27px;
+    left: 201px;
+    top: 12px;
+
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+.firstHr {
+    position: absolute;
+    width: 74px;
+    height: 0px;
+    left: 201px;
+    top: 39px;
+  
+    border: 2px solid #497ecd;
+}
+  
+.input1 {
+    position: absolute;
+    width: 436px;
+    height: 46px;
+    left: 19px;
+    top: 58px;
+  
+    background: #ffffff;
+    border: 2px solid #497ecd;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+    padding-left: 13px;
+}
+  
+.input2 {
+    position: absolute;
+    width: 436px;
+    height: 46px;
+    left: 19px;
+    top: 119px;
+  
+    background: #ffffff;
+    border: 2px solid #497ecd;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+    padding-left: 13px;
+}
+  
+.button {
+    position: absolute;
+    width: 436px;
+    height: 44px;
+    left: 19px;
+    top: 179px;
+  
+    background: #497ecd;
+    box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: beige;
+    font-style: oblique;
+    font-size: 25px;
+  
+    cursor: pointer;
+}
+  
+.createAccount {
+    position: absolute;
+    width: 436px;
+    height: 21px;
+    left: 19px;
+    top: 232px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+  
+.hr1 {
+    position: absolute;
+    width: 111.63px;
+    height: 0px;
+    left: 13.63px;
+    top: 253px;
+  
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    transform: rotate(180deg);
+}
+  
+.hr2 {
+    position: absolute;
+    width: 111.63px;
+    height: 0px;
+    right: 13.63px;
+    top: 253px;
+  
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    transform: rotate(180deg);
+}
+  
+.createAccountButton {
+    position: absolute;
+    width: 436px;
+    height: 43px;
+    left: 19px;
+    top: 299px;
+  
+    background: #ffffff;
+    border: 2px solid #497ecd;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #497ecd;
+    cursor: pointer;
+}
+
+.resetPass {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+}
+
+.link {
+    position: absolute;
+    width: 260px;
+    height: 23px;
+    left: 108px;
+    top: 350px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  
+    color: rgba(0, 0, 0, 0.7);
+}

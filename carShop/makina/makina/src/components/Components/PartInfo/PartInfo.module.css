@@ -1,0 +1,495 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 1267px;
+    left: 0px;
+    top: 0px;
+
+    background: #E8E8E8;
+}
+
+.nav {
+  
+    position: fixed;
+    width: 100%;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    
+    background: #E8E8E8;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+
+    z-index: 1;
+    border-bottom: 2px solid black;
+}
+
+.nav img{
+    position: absolute;
+    width: 100px;
+    height: 63px;
+    left: 57px;
+    top: 0px;
+}
+.wts{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+
+    font-size: 16px;
+}
+td{
+    font-size: 22px;
+    font-weight: 400;
+    font-style: oblique;
+    padding: 20px;
+}
+tr td:nth-child(2){
+    color: #4052F0;
+}
+.list1 {
+    display: inline-flex;
+    list-style-type: none;
+    position: absolute;
+    left:530px;
+}
+
+.list2 {
+ 
+    display: inline-flex;
+    list-style-type: none;
+    position: absolute;
+    right:75px;
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.list1 li a:hover {
+    text-decoration: underline;
+    color: #4052F0;
+    font-size: 20px;
+}
+
+.list2 li a:hover {
+    text-decoration: underline;
+    color: red;
+    font-size: 17px;
+}
+ 
+.partImg{
+    position: absolute;
+    width: 911px;
+    height: 600px;
+    left: 75px;
+    top: 83px;
+
+    filter: drop-shadow(8px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(-8px 0px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px -8px 4px rgba(0, 0, 0, 0.25));
+}
+
+.partImg img{
+     
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 100px;
+    top: 50px;
+    
+}
+
+.price1{
+    
+    position: absolute;
+    width: 182px;
+    height: 36px;
+    right: 85px;
+    top: 72px;
+ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+
+
+    color: #497ECD;
+}
+
+.whatsappButton1{
+    
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    right: 75px;
+    top: 139px;
+
+    background: #2F975F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 5px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    cursor: pointer;
+}
+
+.showNumberButton1{
+    position: absolute;
+    width: 216px;
+    height: 48px;
+    right: 75px;
+    top: 204px;
+
+    background: #497ECD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 5px -4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.carInfoTable1{
+    position: absolute;
+    width: 221px;
+    height: 231px;
+    right: 75px;
+    top: 275px;
+    text-align: left;
+}
+
+.description1{
+    
+    position: absolute;
+    width: 562px;
+    height: 320px;
+    left: 75px;
+    top: 715px;
+
+    background: #F6F6F6;
+    box-shadow: 8px 0px 4px rgba(0, 0, 0, 0.25), -8px 0px 4px rgba(0, 0, 0, 0.25), 0px 8px 4px rgba(0, 0, 0, 0.25), 0px -8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.descriptionHr1{
+    position: absolute;
+    width: 473px;
+    height: 0px;
+    left: 45px;
+    top: 117px;
+
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.description1 img{
+    
+    position: absolute;
+    width: 70px;
+    height: 51px;
+    left: 45px;
+    top: 38px;
+}
+
+.companyName1{
+    
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    left: 126px;
+    top: 41px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-decoration-line: underline;
+
+    color: #497ECD;
+}
+
+.companyName1:hover {
+    text-decoration: underline;
+    color: red;
+    font-size: 17px;
+}
+
+.companyLoc1{
+    position: absolute;
+    width: 150px;
+    height: 21px;
+    left: 126px;
+    top: 67px;
+
+    font-family: 'Poppins';
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+
+
+
+    color: #000000;
+}
+
+.description1 h2{
+    position: absolute;
+    width: 90%;
+    height: 35px;
+    left: 45px;
+    top: 135px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
+
+.description1 h3{
+    
+    position: absolute;
+    width: 80%;
+    height: 27px;
+    left: 45px;
+    top: 168px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
+
+.companyInfo1{
+    
+    position: absolute;
+    width: 459px;
+    height: 42px;
+    left: 45px;
+    top: 230px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.footer1{
+    position: absolute;
+    width: 100%;
+    height: 286px;
+    left: 0px;
+    top: 1081px;
+
+    background: #E8E8E8;
+}
+
+.firstSection1{
+    position: absolute;
+    width: 33%;
+    height: 171px;
+    left: 58px;
+    top: 16px;
+
+
+
+}
+
+.firstSection1 img{
+    position: absolute;
+    width: 140px;
+    height: 90px;
+    left: 58px;
+    top: 16px;
+}
+
+.firstSection1 article{
+    position: absolute;
+    width: 335px;
+    height: 105px;
+    left: 69px;
+    top: 82px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.secondSection1{
+    position: absolute;
+    width: 33%;
+    height: 175px;
+    right: 340px;
+    top: 50px;
+    
+}
+
+.thirdSection1{
+    position: absolute;
+    width: 33%;
+    height: 139px;
+    right: 0px;
+    top: 47px;
+    
+}
+
+.list3{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    text-align: left;
+    margin: 28px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.list3 li{
+    cursor:pointer;
+}
+
+.quickLinks1{
+    position: absolute;
+    left: 140px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #497ECD;
+
+
+}
+
+.contactUs1{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #497ECD;
+    left: 140px;
+    
+}
+
+.contactUsList1{
+    position: absolute;
+    margin : 20px 0px ;
+    left: 140px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+    
+}
+
+.contactUsList1 p{
+    cursor: pointer;
+}
+
+.contactUsList1 p:nth-child(2){
+    position: absolute;
+    top:35px;
+    
+}
+
+.contactUsList1 p:nth-child(3){
+    position: absolute;
+    top:70px;
+}
+
+.sellButton1{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right:15px;
+    top: 122px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+
+    background: #4052F0;
+    box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+
+}
+
+.endHr1{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 238px;
+
+    border: 2px solid #000000;
+}
+
+.end1{
+    position: absolute;
+    width: 318px;
+    height: 21px;
+    left:643px;
+    top: 252px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+    margin-top:4px;
+}

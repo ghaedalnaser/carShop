@@ -1,0 +1,1378 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: 3900px;
+
+    background: #FFFFFF;
+}
+
+
+/*      NAVIGATION BAR START     */
+    .nav {
+    
+        position: fixed;
+        width: 100%;
+        height: 49px;
+        left: 0px;
+        top: 0px;
+        
+        background: #E8E8E8;
+        box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+
+        z-index: 1;
+    }
+
+    .nav img{
+        position: absolute;
+        width: 100px;
+        height: 63px;
+        left: 57px;
+        top: 0px;
+    }
+
+    .list1 {
+        display: inline-flex;
+        list-style-type: none;
+        position: absolute;
+        left:530px;
+    }
+
+    .list2 {
+        display: inline-flex;
+        list-style-type: none;
+        position: absolute;
+        right:0px;
+
+        background: #497ECD;
+        border: 1px solid #000000;
+
+        clip-path: polygon(4% 0, 100% 0, 100% 100%, 0% 100%);
+        margin: 0px;
+        width: 407px;
+        height: 100%;
+
+        
+    }
+
+    ul li {
+        margin-left: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-style: oblique;
+    }
+
+    .list1 li a:hover {
+        text-decoration: underline;
+        color: #497ECD;
+        font-size: 20px;
+    }
+
+    .list2 li a:hover {
+        text-decoration: underline;
+        color: red;
+        font-size: 17px;
+    }
+
+    .list2 li a {
+        color: #FFFFFF;
+    }
+
+    .list2 li:nth-of-type(1) {
+        position: absolute;
+        top : 15px;
+        right: 190px;
+    }
+
+    .list2 li:nth-of-type(2) {
+        position: absolute;
+        top : 15px;
+        right: 120px;
+    }
+
+
+/*       NAVIGATION BAR END        */
+
+/*       HEADER  BEGIN         */
+    .headerSection{
+
+        position: absolute;
+        width: 100%;
+        height: 384px;
+        left: 0px;
+        top: 48px;
+        
+        background: #E8E8E8;
+
+        overflow: hidden;
+    }
+
+    .hdrImg{
+        position: absolute;
+        width: 600px;
+        height: 432px;
+        right: 0px;
+        top: 0px;
+
+        background: #497ECD;
+        border: 1px solid #000000;
+
+        clip-path: polygon(26% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .headerSection img{
+        position: absolute;
+        width: 906px;
+        height: 319px;
+        right : -222px;
+        top: 35px;
+        
+    }
+
+    .title{
+        position: absolute;
+        width: 272px;
+        height: 121px;
+        left: 68px;
+        top: 115px;
+    }
+
+    .title section:nth-of-type(1){
+        position: absolute;
+        width: 244px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: #000000;
+    }
+
+    .title section:nth-of-type(2){
+        position: absolute;
+        width: 272px;
+        height: 40px;
+        left: 0px;
+        top: 72px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+
+        color: #000000;
+    }
+
+    .filterSection{
+
+        position: absolute;
+        width: 388px;
+        height: 50px;
+        left: 68px;
+        top: 252px;
+    }
+
+    .userli{
+        position:absolute;
+        color: aliceblue;
+        width: 100px;
+        text-align:center;
+        font-size: 18px;
+        font-style: oblique;
+        border-radius: 5px;
+        cursor : pointer;
+        
+    }
+   .userli:hover{
+    background-color: aqua;
+    color: #000000;
+    transition:all 2000ms;
+   }
+    .filterSection .btn{
+        position: absolute;
+        width: 80px;
+        height: 50px;
+        left: 0px;
+        top: 0px;  
+
+        background-color: #497ECD;
+        color: white;
+        border-radius:5px ;
+    }
+
+    .filterSection .btn span{
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+
+    .filterSection .btn hr:nth-of-type(1){
+        position: absolute;
+        margin: 0px;
+        top: 17px;
+        left: 46.4px;
+        border: white solid 2px;
+        width: 15px;
+        
+    }
+
+    .filterSection .btn hr:nth-of-type(2){
+        position: absolute;
+        border: white solid 2px;
+        width: 9px;
+        margin: 0px;
+        top: 22px;
+        left: 49.2px;
+    }
+
+    .filterSection .btn hr:nth-of-type(3){
+        position: absolute;
+        border: white solid 2px;
+        width: 3px;
+        margin: 0px;
+        top: 28px;
+        left: 52px;
+    }
+
+    .filterSection input{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 308px;
+        height: 50px;
+        left: 80px;
+        top:0px;
+        
+        background: #F5F5F5;
+        border: 1px solid #497ECD;
+        border-radius: 5px;
+    }
+
+
+/*         HEADER END            */
+
+
+/*          BUDGET FILTER             */
+    .carSection{
+        position: absolute;
+        width: 100%;
+        height: 1662px;
+        left: 0px;
+        top: 432px;
+        
+        background: #E8E8E8;
+    }
+
+    .carSection h1{
+        position: absolute;
+        width: 335px;
+        height: 36px;
+        left: 570px;
+        top: 35px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: #000000;
+    }
+
+    .searchBar{
+
+        position: absolute;
+        width: 290px;
+        height: 38px;
+        left: 575px;
+        top: 92px;
+    }
+
+    .searchBar input{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 200px;
+        height: 38px;
+        top: 0px;
+        left: 0px;
+
+        border: 1px solid #497ECD;
+        border-radius: 5px;
+    }
+
+    .searchBarBtn{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 90px;
+        height: 38px;
+        left: 200px;
+        top: 0px;
+
+        border: 1px solid #497ECD;
+        border-radius: 5px;
+
+        background: #497ECD;
+        color: #FFFFFF;
+    }
+
+    .carSection h2:nth-of-type(1){
+        position: absolute;
+        width: 200px;
+        height: 36px;
+        left: 66px;
+        top: 182px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: rgba(0, 0, 0, 0.75);
+        margin: 0px;
+    }
+
+
+/*                                  */
+
+
+/*    BodyType Start    */
+    .carSection h2:nth-of-type(2){
+        position: absolute;
+        width: 100px;
+        height: 36px;
+        left: 66px;
+        top: 353px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: rgba(0, 0, 0, 0.75);
+        margin: 0px;
+    }
+
+    .bodyTypeHolder{
+        position: absolute;
+        width: 90%;
+        height: 106px;
+        left: 66px;
+        top: 222px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+
+
+        color: #000000;
+    }
+
+    .bodyTypeHolder div:nth-of-type(1){
+        position: absolute;
+        width: 227px;
+        height:106px;
+        top:0px;
+        left: 0px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(1) img{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        width: 100px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(1) label{
+        position: absolute;
+        top: 69px;
+        left: 83px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(2){
+        position: absolute;
+        width: 227px;
+        height:106px;
+        top:0px;
+        left: 227px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(2) img{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        width: 100px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(2) label{
+        position: absolute;
+        top: 69px;
+        left: 83px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(3){
+        position: absolute;
+        width: 227px;
+        height:106px;
+        top:0px;
+        left: 454px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(3) img{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        width: 100px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(3) label{
+        position: absolute;
+        top: 69px;
+        left: 83px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(4){
+        position: absolute;
+        width: 227px;
+        height:106px;
+        top:0px;
+        left: 681px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(4) img{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        width: 100px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(4) label{
+        position: absolute;
+        top: 69px;
+        left: 90px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(5){
+        position: absolute;
+        width: 227px;
+        height:106px;
+        top:0px;
+        left: 908px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(5) img{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        width: 100px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(5) label{
+        position: absolute;
+        top: 69px;
+        left: 83px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(6){
+        position: absolute;
+        width: 227px;
+        height:106px;
+        top:0px;
+        left: 1135px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(6) img{
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        width: 100px;
+    }
+
+    .bodyTypeHolder div:nth-of-type(6) label{
+        position: absolute;
+        top: 69px;
+        left: 83px;
+    }
+
+
+/*   BodyType End     */
+
+
+/*    COMPANYS Start     */
+    .carSection h2:nth-of-type(3){
+        position: absolute;
+        width: 200px;
+        height: 36px;
+        left: 66px;
+        top: 507px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: rgba(0, 0, 0, 0.75);
+        margin: 0px;
+    }
+
+    .makesHolder{
+        position: absolute;
+        width: 90%;
+        height: 106px;
+        left: 66px;
+        top: 389px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+        
+    }
+
+    .makesHolder div:nth-of-type(1){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 0px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(1) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(1) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 61px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(2){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 150px;
+        top: 2px; 
+    }
+
+    .makesHolder div:nth-of-type(2) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(2) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 48px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(3){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 300px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(3) img{
+
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(3) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 52px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(4){
+
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 450px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(4) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(4) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 30px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(5){
+        position: absolute;
+        width:  150px;
+        height: 106px;
+        left: 600px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(5) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(5) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 59px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(6){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 750px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(6) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(6) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 44px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(7){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 900px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(7) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(7) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 51px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(8){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 1050px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(8) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(8) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 51px;
+        top: 64px;
+    }
+
+    .makesHolder div:nth-of-type(9){
+        position: absolute;
+        width: 150px;
+        height: 106px;
+        left: 1200px;
+        top: 2px;
+    }
+
+    .makesHolder div:nth-of-type(9) img{
+        position: absolute;
+        width: 90px;
+        height: auto;
+        left: 30px;
+        top: 0px;
+    }
+
+    .makesHolder div:nth-of-type(9) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 20px;
+        top: 64px;
+    }
+
+
+/*            COMPANYS End               */
+
+
+
+/*               SHOW CARS                */
+
+
+    .latestCar{
+        position: absolute;
+        height: 850px;
+        width: 1470px;
+        left:25px;
+        top: 557px;
+        
+    }
+
+    .viewAllBtn{
+        position: absolute;
+        width: 130px;
+        height: 30px;
+        left: 678px;
+        top: 1460px;
+        
+        background: #497ECD;
+        color: #FFFFFF;
+    }
+
+
+
+/*                               */
+
+
+/*    BE SELLER SECTION START   */
+
+
+    .beSellerSection{
+
+        position: absolute;
+        width: 100%;
+        height: 293px;
+        left: 0px;
+        top: 2015px;
+        
+        background: #E8E8E8;
+    }
+
+    .beSellerSection img{
+        position: absolute;
+        width: 443px;
+        height: 214px;
+        left: 56px;
+        top: 40px;
+    }
+
+    .beSellerSection section{
+
+        position: absolute;
+        width: 818px;
+        height: 214px;
+        left: 528px;
+        top: 40px;
+    }
+
+    .beSellerSection section p:nth-of-type(1){
+        position: absolute;
+        width: 323px;
+        height: 36px;
+        left: 328px;
+        top: 26px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: #000000;
+        margin: 0px;
+    }
+
+    .beSellerSection section p:nth-of-type(2){
+
+        position: absolute;
+        width: 418px;
+        height: 42px;
+        left: 328px;
+        top: 84px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        
+        color: #000000;
+        margin: 0px;
+    }
+
+    .beSellerSection section button{
+        position: absolute;
+        left: 328px;
+        top: 160px;
+
+        background-color: #497ECD;
+        color: #FFFFFF;
+        width: 130px;
+        height: 30px;
+    }
+
+
+
+/*     BE SELLER SECTION END      */
+
+
+/*         PARTS SECTION START         */
+
+
+
+    .partsSection{
+        position: absolute;
+        width: 100%;
+        height: 1306px;
+        left: 0px;
+        top: 2308px;
+        
+        background: #E8E8E8;
+    }
+
+
+    .description{
+        position: absolute;
+        top: 0px;
+        left: 450px;
+        width: 700px;
+        height: 79px;
+        
+    }
+
+    .description p:nth-of-type(1){
+
+        position: absolute;
+        top: 5px;
+        left: 281px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #497ECD;
+
+        margin: 0px;
+    }
+
+    .description p:nth-of-type(2){
+        position: absolute;
+        left: 200px;
+        top: 23px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: #000000;
+        margin: 0px;
+    }
+
+    .description p:nth-of-type(3){
+        position: absolute;
+        top: 60px;
+        left: 230px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        
+        color: rgba(0, 0, 0, 0.75);
+        margin: 0px;
+    }
+
+    .partscards{
+        
+        position: absolute;
+        height: 680px;
+        width: 1470px;
+        left:25px;
+        top: 121px;
+        
+    }
+
+    .searchPart{
+
+        position: absolute;
+        width: 878px;
+        height: 454px;
+        left: 300px;
+        top: 815px;
+        
+        background: #497ECD;
+    }
+
+    .searchPart section:nth-of-type(1){
+        position: absolute;
+        width: 434px;
+        height: 404px;
+        left: 45px;
+        top: 25px;
+        
+        background: #ECECEC;
+        border-radius: 10px;
+    }
+
+    .searchPart section:nth-of-type(2){
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 308px;
+        height: 404px;
+        left: 520px;
+        top: 25px;
+        
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+        color: #FFFFFF;
+    }
+
+    .searchPart section:nth-of-type(1) article h1{
+        position: absolute;
+        width: 114px;
+        height: 36px;
+        left: 160px;
+        top: 18px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        
+        color: #000000;
+        margin: 0px;
+    }
+
+    .searchPart section:nth-of-type(1) article p{
+        position: absolute;
+        width: 275px;
+        height: 42px;
+        left: 79px;
+        top: 54px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        
+        color: rgba(0, 0, 0, 0.75);
+        margin: 0px;
+    }
+
+    .searchPart form{
+        position: absolute;
+        top: 110px;
+        width: 100%;
+        height: 294px;
+    }
+
+    .searchPart form div:nth-of-type(1) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 33px;
+        top: 7px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .npt{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 361px;
+        height: 38px;
+        left: 29px;
+        top: 45px;
+        
+        background: #FFFFFF;
+        border: 2px solid #497ECD;
+        box-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    .searchPart form div:nth-of-type(2) label{
+        position: absolute;
+        width: 120px;
+        height: 21px;
+        left: 33px;
+        top: 115px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .searchPart form div:nth-of-type(2) select{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 361px;
+        height: 38px;
+        left: 29px;
+        top: 150px;
+
+        background: #FFFFFF;
+        border: 2px solid #497ECD;
+        box-shadow: -6px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+
+    }
+
+    .searchPart form hr:nth-of-type(1){
+
+        position: absolute;
+        width: 87px;
+        height: 0px;
+        left: 34px;
+        top: 241px;
+        
+        border: 2px solid #497ECD;
+    }
+
+    .searchPart form hr:nth-of-type(2){
+
+        position: absolute;
+        width: 87px;
+        height: 0px;
+        left: 297px;
+        top: 241px;
+        
+        border: 2px solid #497ECD;
+    }
+
+    .searchPart form button{
+        position: absolute;
+        width: 128px;
+        height: 40px;
+        left: 148px;
+        top: 230px;
+        
+        background: #497ECD;
+        color: #FFFFFF;
+    }
+
+    .searchPart section:nth-of-type(2) h1{
+        position: absolute;
+        width: 220px;
+        height: 36px;
+        left: 52px;
+        top: 16px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0px;
+        
+    }
+
+    .searchPart section:nth-of-type(2) hr{
+        position: absolute;
+        width: 202px;
+        height: 0px;
+        left: 52px;
+        top: 55px;
+
+        border: 3px solid #FFFFFF;
+        margin: 0px;
+    }
+
+    .searchPart section:nth-of-type(2) ul{
+        position: absolute;
+        width: 268px;
+        height: 320px;
+        left: 21px;
+        top: 75px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .searchPart section:nth-of-type(2) ul li{
+    margin: 13px;
+    }
+
+    
+/*         PARTS SECTION END             */
+
+
+
+/*         FOOTER  START              */
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 286px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #E8E8E8;
+}
+
+.firstSection{
+    position: absolute;
+    width: 33%;
+    height: 171px;
+    left: 58px;
+    top: 16px;
+
+}
+
+.firstSection img{
+    position: absolute;
+    width: 153px;
+    height: 90px;
+    left: 58px;
+    top: 16px;
+
+/* background: url(Logo.png); */
+}
+
+.firstSection article{
+    position: absolute;
+    width: 335px;
+    height: 105px;
+    left: 69px;
+    top: 82px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.secondSection{
+    position: absolute;
+    width: 33%;
+    height: 175px;
+    right: 340px;
+    top: 50px;
+    
+}
+
+.thirdSection{
+    position: absolute;
+    width: 33%;
+    height: 139px;
+    right: 0px;
+    top: 47px;
+    
+}
+
+.list3{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    text-align: left;
+    margin: 28px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.list3 li{
+    cursor:pointer;
+}
+
+.quickLinks{
+    position: absolute;
+    left: 140px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #497ECD;
+
+
+}
+
+.contactUs{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #497ECD;
+    left: 140px;
+    
+}
+
+.contactUsList{
+    position: absolute;
+    margin : 20px 0px ;
+    left: 140px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+    
+}
+
+.contactUsList p{
+    cursor: pointer;
+}
+
+.contactUsList p:nth-child(2){
+    position: absolute;
+    top:35px;
+    
+}
+
+.contactUsList p:nth-child(3){
+    position: absolute;
+    top:70px;
+}
+
+.sellButton{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right:15px;
+    top: 122px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+
+
+    background: #4052F0;
+    box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.25);
+
+    cursor: pointer;
+
+}
+
+.endHr{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 238px;
+
+    border: 2px solid #000000;
+}
+
+.end{
+    position: absolute;
+    width: 318px;
+    height: 21px;
+    left:570px;
+    top: 252px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+
+/*         FOOTER  END             */

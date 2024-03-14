@@ -1,0 +1,76 @@
+<div class="card">
+  <div class="card-header">
+    <h4>Add Model </h4>
+    <a href="{{baseUrl}}/dashboard/models" class="txt-primary">/Back</a>
+  </div>
+  <div class="card-body">
+    <form method="POST" action="{{baseUrl}}/dashboard/models/store">
+      <!-- 2 column grid layout with text inputs for the first and last names -->
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline">
+            <select name="make" class="form-control">
+              <option value="KIA">KIA</option>
+              <option value="TOYOTA">TOYOTA</option>
+              <option value="CHERY">CHERY</option>
+              <option value="CHEVEROLET">CHEVEROLET</option>
+              <option value="BMW">BMW</option>
+              <option value="HYUNDAI">HYUNDAI</option>
+              <option value="LEXUS">LEXUS</option>
+              <option value="NISSAN">NISSAN</option>
+              <option value="MERCEDES">MERCEDES</option>
+              
+              
+            </select>
+            
+            <label class="form-label" for="form6Example1">Make</label><span style=""> *</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" required id="form6Example2" class="form-control" name="model_name" value=""
+              placeholder="Enter the name of model" />
+            <label class="form-label" for="form6Example2">Model</label><span style=""> *</span>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline">
+             <select name="type" class="form-control">
+              <option value="SEDAN">SEDAN</option>
+              <option value="COUPE">COUPE</option>
+              <option value="HATCH">HATCH</option>
+              <option value="SUV">SUV</option>
+              <option value="WAGON">WAGON</option>
+              <option value="PICKUPMAKES">PICKUPMAKES</option>
+             
+              
+              
+            </select>
+            <label class="form-label" for="form6Example1">type</label><span style=""> *</span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" required id="form6Example2" class="form-control" name="fuel" value=""
+              placeholder="Fuel" />
+            <label class="form-label" for="form6Example2">fuel</label><span style=""> *</span>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col">
+          <div class="form-outline">
+            <input type="text" required id="form6Example1" class="form-control" name="transmission" value=""
+              placeholder="transmission" />
+            <label class="form-label" for="form6Example1">transmission</label><span style=""> *</span>
+          </div>
+        </div>
+
+      </div>
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary  mb-4">Add</button>
+    </form>
+  </div>
+</div>

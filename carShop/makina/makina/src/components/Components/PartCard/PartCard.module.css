@@ -1,0 +1,100 @@
+.card{
+    
+    width: 250px;
+    height: 292.97px;
+    
+    background: #CFCFCF;
+    border-radius: 10px;
+
+    margin: 28px 20px;
+    float: left;
+}
+
+.card img{
+    width: 186px;
+    height: 129px;
+
+    position: relative;
+    left: 33px;
+    top: 12px;
+
+}
+
+.cardContent{
+    position: absolute;
+    width: 250px;
+    height: 159px;
+}
+
+.card p:nth-of-type(1){
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 50px;
+    top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0px;
+
+    
+}
+
+.card p:nth-of-type(2){
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    left: 67px;
+    top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #464646;
+    margin: 0px;
+}
+
+.card button {
+    position: absolute;
+    width: 89px;
+    height: 28px;
+    left: 35px;
+    top: 111px;
+    
+    background: #497ECD;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.lnk {
+    color: #246cd7;
+    font-style: italic;
+    text-decoration: underline;
+    position: absolute;
+    width: 87px;
+    height: 21px;
+    left: 142px;
+    top: 114px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #497ECD;
+
+}

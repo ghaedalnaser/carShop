@@ -1,0 +1,127 @@
+.container{
+    position: absolute;
+    top: 20px;
+    width: 514px;
+    height: 700px;
+  
+    left:500px;
+    background: #f5f5f5;
+
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+
+.hdr{
+    position: absolute;
+    left: 50px;
+    top: 12px;
+
+    text-decoration: underline solid 2px;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 900;
+   
+}
+
+.logoImg{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+
+    width: 150px;
+
+}
+
+input{
+    text-align: center;
+    background-color: white;
+}
+
+.lab1{
+    position: absolute;
+    top: 150px;
+    left: 85px;
+
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.in1{
+    position: absolute;
+    top: 185px;
+    left: 70px;
+    
+
+}
+
+.lab2{
+    position: absolute;
+    top: 270px;
+    left: 85px;
+
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.in2{
+    position: absolute;
+    top: 305px;
+    left: 70px;
+}
+
+.lab3{
+
+    position: absolute;
+    top: 385px;
+    left: 85px;
+
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.in3{
+
+    position: absolute;
+    top: 420px;
+    left: 70px;
+
+}
+.lab4{
+
+    position: absolute;
+    top: 492px;
+    left: 85px;
+
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.in4{
+
+    position: absolute;
+    top: 530px;
+    left: 70px;
+
+}
+
+.sub{
+    position: absolute;
+    top: 630px;
+    left: 220px;
+    width: 100px;
+    height: 40px;
+    background-color: #497ECD;
+    color: azure;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 16px;
+}

@@ -1,0 +1,341 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    margin: 0;
+}
+
+.page{
+   
+    position: absolute;
+    width: 84%;
+    height: 100%;
+    left: 16%;
+    top: 0px;
+    
+    background: #F5F5F5;
+    
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.page header p{
+    position: absolute;
+    width: 89px;
+    height: 27px;
+    left: 15px;
+    top: 10px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
+
+header hr{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    bottom : 0px;
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.page p{
+        position: absolute;
+    width: 187px;
+    height: 27px;
+    left: 15px;
+    top: 85px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.myImg{
+        
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 600px;
+    top: 190px;
+
+    border: #000000 solid 1px;
+    border-radius: 59px ;
+}
+
+.firstName{
+    position: absolute;
+    width: 194px;
+    height: 82px;
+    left: 470px;
+    top: 345px;
+}
+
+.firstName label{
+    position: absolute;
+    width: 83px;
+    height: 21px;
+    left: 5px;
+    top: -1px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.firstName input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 181px;
+    height: 44px;
+    left: 3px;
+    top: 26px;
+    
+    background: #FFFFFF;
+    border: 1px solid #497ECD;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.lastName{
+    position: absolute;
+    width: 195px;
+    height: 82px;
+    left: 668px;
+    top: 345px;
+}
+
+.lastName label{
+    position: absolute;
+    width: 79px;
+    height: 21px;
+    left: 5px;
+    top: -1px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.lastName input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 181px;
+    height: 44px;
+    left: 3px;
+    top: 26px;
+    
+    background: #FFFFFF;
+    border: 1px solid #497ECD;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.userNameIn{
+    position: absolute;
+    width: 381px;
+    height: 96px;
+    left: 470px;
+    top: 411px;
+}
+
+.userNameIn label{
+
+    position: absolute;
+    width: 85px;
+    height: 21px;
+    left: 5px;
+    top: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.userNameIn input{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 378px;
+    height: 44px;
+    left: 3px;
+    top: 52px;
+    
+    background: #FFFFFF;
+    border: 1px solid #497ECD;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.address{
+    position: absolute;
+    width: 389px;
+    height: 96px;
+    left: 470px;
+    top: 507px; 
+}
+
+.address label{
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 5px;
+    top: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.address input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 377px;
+    height: 44px;
+    left: 0px;
+    top: 52px;
+    
+    background: #FFFFFF;
+    border: 1px solid #497ECD;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.phoneNum{
+    position: absolute;
+    width: 392px;
+    height: 96px;
+    left: 470px;
+    top: 600px;
+
+
+}
+
+.phoneNum label{
+
+    position: absolute;
+    width: 110px;
+    height: 21px;
+    left: 5px;
+    top: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.phoneNum input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 377px;
+    height: 44px;
+    left: 3px;
+    top: 52px;
+    
+    background: #FFFFFF;
+    border: 1px solid #497ECD;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.email{
+    position: absolute;
+    width: 389px;
+    height: 96px;
+    left: 470px;
+    top: 696px;
+}
+
+.email label{
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    left: 5px;
+    top: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.email input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 378px;
+    height: 44px;
+    left: 3px;
+    top: 52px;
+    
+    background: #FFFFFF;
+    border: 1px solid #497ECD;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+form button{
+    
+    position: absolute;
+    width: 83px;
+    height: 36px;
+    left: 622px;
+    top: 835px;
+    background: #497ECD;
+    border-radius: 5px;
+    color: white;
+}
